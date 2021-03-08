@@ -21,6 +21,7 @@ int main() {
 	uint8_t* rgb_image = stbi_load("tile_squiggle.png", &width, &height, &bpp, 3);
 	uint8_t* rgb_image = stbi_load("tile_squiggle_reverse.png", &width, &height, &bpp, 3);
 	uint8_t* rgb_image = stbi_load("tile_t.png", &width, &height, &bpp, 3);
+	uint8_t* rgb_image = stbi_load("menu_cursor.gif", &width, &height, &bpp, 3);
 	stbi_image_free(rgb_image);
 	return 0;
 	ofstream pref;
