@@ -6,3 +6,7 @@ I already know a modified version of c++ used with arduino, so im familiar with 
 # Releases
 
 coming soon.....
+
+# Contribute
+
+Discord link coming soon...
