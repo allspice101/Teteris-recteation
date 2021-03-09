@@ -1,6 +1,11 @@
 #include <iostream>
 #include <fsream>
+#include <conio.h>
 using namespace std;
+#define KEY_UP 72
+#define KEY_DOWN 80
+#define KEY_LEFT 75
+#define KEY_RIGHT 77
 #include <stdint>
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
@@ -26,6 +31,8 @@ int main() {
 	return 0;
 	ofstream pref;
 	ofstream save;
+	ofstream game;
 	pref.open("prefrences.cpp");
 	save.open("save.cpp");
+	game.open("`1qruntime.cpp")
 }
