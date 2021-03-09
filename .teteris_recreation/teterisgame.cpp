@@ -34,5 +34,5 @@ int main() {
 	ofstream game;
 	pref.open("prefrences.cpp");
 	save.open("save.cpp");
-	game.open("`1qruntime.cpp")
+	game.open("`runtime.cpp")
 }
