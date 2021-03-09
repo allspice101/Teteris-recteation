@@ -9,14 +9,13 @@ using namespace std;
 #include <stdint>
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
-int tilefall = 1000;
-int lastlevel = 0;
-#define lTile()
-#define lTilereverse()
-#define squigleTile()
-#define squigleTilereverse()
-#define tTile()
-#define lineTile()
+int tilefall;
+#define lTile("tile.l")
+#define lTilereverse("tile.lr")
+#define squigleTile("tile.squigle")
+#define squigleTilereverse("tile.squigler")
+#define tTile("tile.t")
+#define lineTile("tile.line")
 int main() {
 	int width, height, bpp;
 	uint8_t* rgb_image = stbi_load("tile_l.png", &width, &height, &bpp, 3);
