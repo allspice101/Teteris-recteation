@@ -34,4 +34,5 @@ int main() {
 	pref.open("prefrences.cpp");
 	save.open("save.cpp");
 	game.open("runtime.cpp")
+	//Im ending this prodject becausei dont have the motivaton to continue it.
 }
